@@ -22,6 +22,6 @@ def remove_background():
     
     # Send the resulting image back to the user
     return send_file('output.png', mimetype='image/png')
-
+#will do run 0.0.0.0
 if __name__ == '__main__':
     app.run()
