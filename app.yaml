@@ -1,8 +1,0 @@
-runtime: custom
-env: flex
-entrypoint: gunicorn -b :$PORT app:app
-resources:
-  memory_gb: 4
-
-runtime_config:
-  python_version: 3.9
